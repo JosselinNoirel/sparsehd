@@ -18,3 +18,7 @@ require('glue')
 hello <- function(name) {
   print(glue::glue("Hello {name}!"))
 }
+
+goodbye = function (name) {
+  print(glue::glue('Goodbye {name}'))
+}
